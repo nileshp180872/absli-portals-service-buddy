@@ -54,7 +54,7 @@ public class BetaLogin3 {
 			}
 		
 		
-		 System.setProperty("webdriver.chrome.driver","C:\\nilesh\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver","E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\JARS\\ChromeDriver\\chromedriver.exe");
 		    //WebDriver driver = new ChromeDriver();
 			//driver.manage().window().maximize();
 			
