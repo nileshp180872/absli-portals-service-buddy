@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-19T16:44:58 IST" name="Default suite" finished-at="2023-01-19T16:45:25 IST" duration-ms="27093">
+  <suite started-at="2023-01-19T17:41:41 IST" name="Default suite" finished-at="2023-01-19T17:41:55 IST" duration-ms="14397">
     <groups>
     </groups>
-    <test started-at="2023-01-19T16:44:58 IST" name="Default test" finished-at="2023-01-19T16:45:25 IST" duration-ms="27093">
-      <class name="classfiles.ABSLI_LoginOTP">
-        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_LoginOTP@68c9133c]" started-at="2023-01-19T16:44:58 IST" name="Login" finished-at="2023-01-19T16:45:25 IST" duration-ms="27065" status="PASS">
+    <test started-at="2023-01-19T17:41:41 IST" name="Default test" finished-at="2023-01-19T17:41:55 IST" duration-ms="14397">
+      <class name="classfiles.ABSLI_Login">
+        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_Login@68c9133c]" started-at="2023-01-19T17:41:41 IST" name="Login" finished-at="2023-01-19T17:41:55 IST" duration-ms="14365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-      </class> <!-- classfiles.ABSLI_LoginOTP -->
+      </class> <!-- classfiles.ABSLI_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
