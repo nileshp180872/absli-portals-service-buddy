@@ -1,0 +1,31 @@
+browser =chrome
+url =https://lifeinsurancepartnersuat.adityabirlacapital.com/
+ID1=660281
+Pass=Pass@123
+
+
+
+
+
+
+
+
+=======================================================================
+userID =//input[@placeholder='Enter Advisor code / Emp. ID']
+next=//button[normalize-space()='Next']
+Password=//input[@id='password-field']
+Login=//button[@class='btn btn-primary float-right login']
+otp=//span[@id='profile-tab']
+Enterotp=exampleInputEmail1
+LoginOTP=//button[@class='btn btn-primary float-right login ']
+
+
+DashboardText=(//li[@class='cursor-pointer'][normalize-space()='Dashboard'])[1]
+
+
+
+
+
+
+
+

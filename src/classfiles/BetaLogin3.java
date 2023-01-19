@@ -64,6 +64,7 @@ public class BetaLogin3 {
 			//load the propertiesfile
 			storage.load(fi);
 			
+			
 			//driver.get(storage.getProperty("ClientURL"));
 			
 			for(int i=1; i< 6; i++){
