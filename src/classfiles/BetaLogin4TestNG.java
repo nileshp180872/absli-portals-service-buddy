@@ -18,7 +18,7 @@ public class BetaLogin4TestNG {
 	public void BetaLogin() throws InterruptedException, IOException
 	{
 		//Path of the excel file
-				FileInputStream fs = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\datafiles\\TestingData.xlsx");
+				FileInputStream fs = new FileInputStream("C:\\JARS\\DataFiles\\TestingData.xlsx");
 				//Creating a workbook
 				XSSFWorkbook workbook = new XSSFWorkbook(fs);
 				XSSFSheet sheet = workbook.getSheetAt(0);
@@ -55,12 +55,12 @@ public class BetaLogin4TestNG {
 					}
 				
 				
-				 System.setProperty("webdriver.chrome.driver","C:\\nilesh\\chromedriver.exe");
+				 System.setProperty("webdriver.chrome.driver","C:\\JARS\\ChromeDriver\\chromedriver.exe");
 				    //WebDriver driver = new ChromeDriver();
 					//driver.manage().window().maximize();
 					
 					//define file path in Java class
-					FileInputStream fi = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\propertyfiles\\MyPropertiesFile.Properties");
+					FileInputStream fi = new FileInputStream("C:\\JARS\\PropertyFiles\\MyPropertiesFile.Properties");
 					Properties storage = new Properties();
 					//load the propertiesfile
 					storage.load(fi);

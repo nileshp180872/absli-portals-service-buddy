@@ -32,9 +32,9 @@ public class ABSLI_Login {
 		//FileInputStream ip = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\propertyfiles\\AB.Login_Properties");
 		//FileInputStream fs = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\datafiles\\AB_Login_Data.xlsx");
 
-		System.setProperty("webdriver.chrome.driver", "E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\JARS\\ChromeDriver\\chromedriver.exe");
-		FileInputStream ip = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\propertyfiles\\AB.Login_Properties");
-		FileInputStream fs = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\datafiles\\AB_Login_Data.xlsx");
+		System.setProperty("webdriver.chrome.driver", "C:\\JARS\\ChromeDriver\\chromedriver.exe");
+		FileInputStream ip = new FileInputStream("C:\\JARS\\PropertyFiles\\AB.Login_Properties");
+		FileInputStream fs = new FileInputStream("C:\\JARS\\DataFiles\\AB_Login_Data.xlsx");
 		
 		//Creating a workbook
 		//System.setProperty("webdriver.chrome.driver", "D:\\ABLSI_SB\\absli-portals-service-buddy\\JARS\\ChromeDriver\\chromedriver.exe");

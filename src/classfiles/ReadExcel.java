@@ -22,7 +22,7 @@ public class ReadExcel {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		//Path of the excel file
-		FileInputStream fs = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\datafiles\\TestingData.xlsx");
+		FileInputStream fs = new FileInputStream("C:\\JARS\\DataFiles\\TestingData.xlsx");
 		//Creating a workbook
 		XSSFWorkbook workbook = new XSSFWorkbook(fs);
 		XSSFSheet sheet = workbook.getSheetAt(0);

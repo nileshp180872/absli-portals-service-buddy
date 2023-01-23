@@ -15,7 +15,7 @@ public class WriteExcel {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String path = "E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\datafiles\\KeywordData.xlsx";
+		String path = "C:\\JARS\\DataFiles\\KeywordData.xlsx";
 		FileInputStream fs = new FileInputStream(path);
 		
 				

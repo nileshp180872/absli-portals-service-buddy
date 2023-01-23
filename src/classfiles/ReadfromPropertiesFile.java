@@ -9,7 +9,7 @@ public class ReadfromPropertiesFile {
 	public static void main(String[] args) throws IOException {
 	
 		//define file path in Java class
-		FileInputStream fi = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\propertyfiles\\MyPropertiesFile.Properties");
+		FileInputStream fi = new FileInputStream("C:\\JARS\\PropertyFiles\\MyPropertiesFile.Properties");
 		
 		// system.getproperty("user.dir") gives user directory path
 		//FileInputStream fi = new FileInputStream(System.getProperty("user.dir")+"\\src\\MyStorage\\MyPropertiesFile.Properties");
