@@ -19,8 +19,25 @@ otp=//span[@id='profile-tab']
 Enterotp=exampleInputEmail1
 LoginOTP=//button[@class='btn btn-primary float-right login ']
 
-
 DashboardText=(//li[@class='cursor-pointer'][normalize-space()='Dashboard'])[1]
+===================================================
+660281
+TotalActiveNOP=(//div[contains(@class,'value')][normalize-space()='538'])[1]
+Customername=//label[normalize-space()='Aarti Aswal']
+Policy=//a[@id='policy-details-tab']
+PolicyAerrow=(//h2[normalize-space()='Policies Sourced by You'])[1]
+policySourcedByYou=//div[@href='#policy-owned-c']//div//h2[@id='flush-headingOne']
+ViewMore=(//span[@class='btn-text-closed'][normalize-space()='View More'])[1]
+GotoPolicyDetails=//div[@class='active cursor-pointer d-inline cta cta-primary font-14']
+MoreDetails=//a[@id='more-tab']
+
+
+
+=============================================================
+CA1090
+myCustomer=//li[normalize-space()='My customer']
+AllCustomer=//li[normalize-space()='All Customers']
+EDitCu=(//button[@data-toggle='modal'][normalize-space()='Edit'])[2]
 
 
 
