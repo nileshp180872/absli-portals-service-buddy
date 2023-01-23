@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 import com.google.common.collect.Table.Cell;
 
 public class ABSLI_Login {
-	//Pruthiraj2
+	
 	private static final long TimeOut = 15;
 	XSSFCell muser;
 	XSSFCell mpass;
@@ -30,6 +30,7 @@ public class ABSLI_Login {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\ABLSI_SB\\absli-portals-service-buddy\\JARS\\ChromeDriver\\chromedriver.exe");
 		FileInputStream ip = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\propertyfiles\\AB.Login_Properties");
+		prop.load(ip);
 		// TODO Auto-generated method stub
 				//Path of the excel file
 				FileInputStream fs = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\datafiles\\AB_Login_Data.xlsx");
@@ -50,7 +51,7 @@ public class ABSLI_Login {
 				muser = sheet.getRow(1).getCell(1);
 				mpass = sheet.getRow(0).getCell(1);
 						
-		prop.load(ip);
+		
 		driver = new ChromeDriver();
 		System.out.println(prop.getProperty("browser"));
 		driver.get(prop.getProperty("url"));

@@ -54,8 +54,8 @@ public class ABSLI_Nominee_J1 {
 		driver.findElement(By.xpath(prop.getProperty("next"))).click();
 		driver.findElement(By.xpath(prop.getProperty("Password"))).sendKeys(mpass.toString());
 		driver.findElement(By.xpath(prop.getProperty("Login"))).click();
-		java.io.File f3=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		  Files.copy(f3, new java.io.File(".\\ScreenShot\\searchMobilenumber.png"));
+		//java.io.File f3=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  //Files.copy(f3, new java.io.File(".\\ScreenShot\\searchMobilenumber.png"));
 		driver.findElement(By.xpath(prop.getProperty("TotalActiveNOP"))).click();
 		driver.findElement(By.xpath(prop.getProperty("Customername"))).click();
 		driver.findElement(By.xpath(prop.getProperty("Policy"))).click();
