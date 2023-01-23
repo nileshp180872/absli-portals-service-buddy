@@ -28,12 +28,15 @@ public class ABSLI_Login {
 	@Test
 	public void Login() throws IOException, InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\ABLSI_SB\\absli-portals-service-buddy\\JARS\\ChromeDriver\\chromedriver.exe");
-		FileInputStream ip = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\propertyfiles\\AB.Login_Properties");
-		// TODO Auto-generated method stub
-				//Path of the excel file
-				FileInputStream fs = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\datafiles\\AB_Login_Data.xlsx");
-				//Creating a workbook
+		//System.setProperty("webdriver.chrome.driver", "D:\\ABLSI_SB\\absli-portals-service-buddy\\JARS\\ChromeDriver\\chromedriver.exe");
+		//FileInputStream ip = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\propertyfiles\\AB.Login_Properties");
+		//FileInputStream fs = new FileInputStream("D:\\ABLSI_SB\\absli-portals-service-buddy\\src\\datafiles\\AB_Login_Data.xlsx");
+
+		System.setProperty("webdriver.chrome.driver", "E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\JARS\\ChromeDriver\\chromedriver.exe");
+		FileInputStream ip = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\propertyfiles\\AB.Login_Properties");
+		FileInputStream fs = new FileInputStream("E:\\ABSLI_SELENIUM\\SERVICE_BUDDY\\src\\datafiles\\AB_Login_Data.xlsx");
+		
+		//Creating a workbook
 				XSSFWorkbook workbook = new XSSFWorkbook(fs);
 				XSSFSheet sheet = workbook.getSheetAt(0);
 				//System.out.println(workbook.getSheetAt(0));
@@ -61,7 +64,7 @@ public class ABSLI_Login {
 		driver.findElement(By.xpath(prop.getProperty("Login"))).click();
 		String confirmMessage = driver.findElement(By.xpath(prop.getProperty("DashboardText"))).getText();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("Dashboard"));
-		driver.quit();
+		//driver.quit();
 		
 		
 	}

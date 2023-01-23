@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-19T16:44:58 IST" name="Default suite" finished-at="2023-01-19T16:45:25 IST" duration-ms="27093">
+  <suite started-at="2023-01-19T18:13:56 IST" name="Default suite" finished-at="2023-01-19T18:14:03 IST" duration-ms="7367">
     <groups>
     </groups>
-    <test started-at="2023-01-19T16:44:58 IST" name="Default test" finished-at="2023-01-19T16:45:25 IST" duration-ms="27093">
+    <test started-at="2023-01-19T18:13:56 IST" name="Default test" finished-at="2023-01-19T18:14:03 IST" duration-ms="7367">
       <class name="classfiles.ABSLI_LoginOTP">
-        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_LoginOTP@68c9133c]" started-at="2023-01-19T16:44:58 IST" name="Login" finished-at="2023-01-19T16:45:25 IST" duration-ms="27065" status="PASS">
+        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_LoginOTP@909217e]" started-at="2023-01-19T18:13:56 IST" name="Login" finished-at="2023-01-19T18:14:03 IST" duration-ms="7331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
