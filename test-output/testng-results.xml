@@ -2,26 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2023-01-19T18:13:56 IST" name="Default suite" finished-at="2023-01-19T18:14:03 IST" duration-ms="7367">
-=======
-  <suite started-at="2023-01-23T14:33:46 IST" name="Default suite" finished-at="2023-01-23T14:34:13 IST" duration-ms="26498">
->>>>>>> branch 'Dev' of https://gitlab.com/nileshp180872/absli-portals-service-buddy.git
+  <suite started-at="2023-01-23T17:58:36 IST" name="Default suite" finished-at="2023-01-23T17:58:42 IST" duration-ms="5910">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test started-at="2023-01-19T18:13:56 IST" name="Default test" finished-at="2023-01-19T18:14:03 IST" duration-ms="7367">
-      <class name="classfiles.ABSLI_LoginOTP">
-        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_LoginOTP@909217e]" started-at="2023-01-19T18:13:56 IST" name="Login" finished-at="2023-01-19T18:14:03 IST" duration-ms="7331" status="PASS">
-=======
-    <test started-at="2023-01-23T14:33:46 IST" name="Default test" finished-at="2023-01-23T14:34:13 IST" duration-ms="26498">
-      <class name="classfiles.ABSLI_Nominee_J1">
-        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_Nominee_J1@68c9133c]" started-at="2023-01-23T14:33:47 IST" name="Login" finished-at="2023-01-23T14:34:13 IST" duration-ms="26442" status="PASS">
->>>>>>> branch 'Dev' of https://gitlab.com/nileshp180872/absli-portals-service-buddy.git
+    <test started-at="2023-01-23T17:58:36 IST" name="Default test" finished-at="2023-01-23T17:58:42 IST" duration-ms="5910">
+      <class name="classfiles.ABSLI_Nominee_J2">
+        <test-method signature="Login()[pri:0, instance:classfiles.ABSLI_Nominee_J2@909217e]" started-at="2023-01-23T17:58:36 IST" name="Login" finished-at="2023-01-23T17:58:42 IST" duration-ms="5867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-      </class> <!-- classfiles.ABSLI_Nominee_J1 -->
+      </class> <!-- classfiles.ABSLI_Nominee_J2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
